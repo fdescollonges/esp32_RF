@@ -22,14 +22,14 @@ Docs to 433MHz :
 - http://randomnerdtutorials.com/decode-and-send-433-mhz-rf-signals-with-arduino/
 
 Test with browser and check Leds : 
-![Alt text](images/HTTP-to-RF433.PNG.png?raw=true "Web test")
+![Alt text](images/HTTP-to-RF433.PNG?raw=true "Web test")
 
 ## 2 - Configure HA_Bridge to send HTTP request from Harmony by emulating HUE hub
 Configure the calls to the HTTP URLs
 ![Alt text](images/ha-bridge.PNG?raw=true "Configure HA Bridge")
 
 Test with HA_Bridge
-![Alt text](images/Test-with-ha-bridge.PNG'?raw=true "Test with HA Bridge")
+![Alt text](images/Test-with-ha-bridge.PNG?raw=true "Test with HA Bridge")
 
 ## 3 - Add device with Harmony mobile application application 
 Use Harmony mobile application to add hue devices to your hub
