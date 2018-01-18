@@ -1,6 +1,4 @@
-# esp32_RF
-
-How to control RF 433Hz Outlet switches with Harmony Hub
+# esp32_RF : How to control RF 433Hz Outlet switches with Harmony Hub
 
 ## 1 - Create HTTP URLs -> RF bridge with ESP32
  
