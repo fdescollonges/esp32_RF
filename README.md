@@ -29,7 +29,7 @@ Configure the calls to the HTTP URLs
 ![Alt text](images/ha-bridge.PNG?raw=true "Configure HA Bridge")
 
 Test with HA_Bridge 
-![Alt text](images/Test-with ha-bridge.PNG?raw=true "Test with HA Bridge")
+![Alt text](images/Test-with%20ha-bridge.PNG?raw=true "Test with HA Bridge")
 
 ## 3 - Add device with Harmony mobile application application 
 Use Harmony mobile application to add hue devices to your hub 
