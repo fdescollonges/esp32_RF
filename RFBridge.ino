@@ -84,7 +84,6 @@ void loop() {
           client.println("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"></head>");
           client.println("<h1>ESP32 - Web Server</h1>");
           client.println("<p>Plug #1 <a href=\"on1\"><button>ON</button></a>&nbsp;<a href=\"off1\"><button>OFF</button></a></p>");
-          client.println("<p>Plug #2 <a href=\"on2\"><button>ON</button></a>&nbsp;<a href=\"off2\"><button>OFF</button></a></p>");
           client.println("</html>");
           break;
         }
