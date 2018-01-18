@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.84976427">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.84976427" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.84976427" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.84976427.170890764" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.973001133" name="Arduino Toolchain (edition Sloeber)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1642596177" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/esp32_2}/Release" id="io.sloeber.sketch.builder.2041523911" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.810325485" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1572629922" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32httpUpdate}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32httpUpdate/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/FS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/HTTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/HTTPClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/SPIFFS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/SPIFFS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/Update}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/Update/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/rc-switch}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure/src}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1063159806" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.1435855810" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.297491333" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32httpUpdate}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32httpUpdate/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/FS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/HTTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/HTTPClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/SPIFFS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/SPIFFS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/Update}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/Update/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/rc-switch}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure/src}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.517675397" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.390437496" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1128005977" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32httpUpdate}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/ESP32httpUpdate/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/FS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/HTTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/HTTPClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/SPIFFS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/SPIFFS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/Update}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/Update/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/rc-switch}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure/src}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.2075775633" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.237847116" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.1065612523" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.914160953" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.1821417125" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="esp32_2.null.217933534" name="esp32_2"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
