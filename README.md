@@ -11,6 +11,7 @@ Leds are only used to display power status (RED : Off, GREEN : On, BLUE : Listen
 
 RF433 Library: 
 - https://github.com/sui77/rc-switch for library
+- http://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/
 
 Docs for Outlets
 - https://github.com/sui77/rc-switch/wiki/HowTo_OperateLowCostOutlets
