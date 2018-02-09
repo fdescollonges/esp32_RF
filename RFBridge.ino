@@ -1,6 +1,8 @@
 #include <WiFi.h>
 #include <RCSwitch.h>
 
+
+
 // Replace with your network credentials
 const char* ssid     = "VFEA_Low";
 const char* password = "NobodyPersonneInDansMyMonPcPc";
@@ -18,6 +20,24 @@ int YELLOW=14;
 
 RCSwitch mySwitch = RCSwitch();
 
+void on(int i) {
+	for (int j=0;j<10;j++) {
+		  	  digitalWrite(GREEN, HIGH);
+			  mySwitch.switchOn(1,i);
+			  digitalWrite(GREEN, LOW);
+			  delay(100);
+	}
+}
+
+void off(int i) {
+	for (int j=0;j<10;j++) {
+		  	  digitalWrite(RED, HIGH);
+			  mySwitch.switchOff(1,i);
+			  digitalWrite(RED, LOW);
+			  delay(100);
+	}
+}
+
 void setup() {
 	pinMode(RED,OUTPUT);
 	pinMode(BLUE,OUTPUT);
@@ -28,15 +48,17 @@ void setup() {
   while(!Serial) {
     ; // wait for serial port to connect. Needed for native USB port only
   }
-
   mySwitch.enableTransmit(RF_PIN);
-
+  btStop();
+  pinMode(2, OUTPUT);
+  digitalWrite(2, LOW);
+  //rtc_gpio_hold_en(GPIO_NUM_14);
   // We start by connecting to a WiFi network
   Serial.println();
   Serial.println();
   Serial.print("Connecting to ");
   Serial.println(ssid);
-  digitalWrite(YELLOW, HIGH);
+  digitalWrite(RED, HIGH);
   WiFi.begin(ssid, password);
 
   // attempt to connect to Wifi network:
@@ -46,8 +68,8 @@ void setup() {
     Serial.print(".");
   }
   Serial.println("");
-  digitalWrite(YELLOW, LOW);
-  digitalWrite(BLUE, HIGH);
+  digitalWrite(RED, LOW);
+  //digitalWrite(BLUE, HIGH);
   Serial.println("WiFi connected");
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
@@ -84,7 +106,9 @@ void loop() {
           client.println("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"></head>");
           client.println("<h1>ESP32 - Web Server</h1>");
           client.println("<p>Plug #1 <a href=\"on1\"><button>ON</button></a>&nbsp;<a href=\"off1\"><button>OFF</button></a></p>");
-          client.println("</html>");
+          client.println("<p>Plug #2 <a href=\"on2\"><button>ON</button></a>&nbsp;<a href=\"off2\"><button>OFF</button></a></p>");
+          client.println("<p>Plug #3 <a href=\"on3\"><button>ON</button></a>&nbsp;<a href=\"off3\"><button>OFF</button></a></p>");
+           client.println("</html>");
           break;
         }
 
@@ -93,15 +117,27 @@ void loop() {
           currentLineIsBlank = true;
           if (strstr(linebuf,"GET /on1") > 0){
         	  Serial.println("Switch On");
-        	  mySwitch.switchOn(1,3);
-        	  digitalWrite(GREEN, HIGH);
-        	  digitalWrite(RED, LOW);
+        	  on(1);
           }
           if (strstr(linebuf,"GET /off1") > 0){
         	  Serial.println("Switch off");
-        	  mySwitch.switchOff(1,3);
-        	  digitalWrite(GREEN, LOW);
-        	  digitalWrite(RED, HIGH);
+        	  off(1);
+          }
+          if (strstr(linebuf,"GET /on2") > 0){
+        	  Serial.println("Switch On");
+        	  on(2);
+          }
+          if (strstr(linebuf,"GET /off2") > 0){
+        	  Serial.println("Switch off");
+        	  off(2);
+          }
+          if (strstr(linebuf,"GET /on3") > 0){
+        	  Serial.println("Switch On");
+        	  on(3);
+          }
+          if (strstr(linebuf,"GET /off3") > 0){
+        	  Serial.println("Switch off");
+        	  off(3);
           }
            // you're starting a new line
           currentLineIsBlank = true;

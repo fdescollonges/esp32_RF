@@ -37,12 +37,6 @@ SUBDIRS := \
 . \
 core/core \
 core/core/libb64 \
-libraries/ESP32httpUpdate/src \
-libraries/FS/src \
-libraries/HTTPClient/src \
-libraries/SPIFFS/src \
-libraries/Update/src \
 libraries/WiFi/src \
-libraries/WiFiClientSecure/src \
 libraries/rc-switch \
 

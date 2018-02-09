@@ -42,34 +42,19 @@
 			<location>C:/Data/Work/arduino-esp32/variants/doitESP32devkitV1</location>
 		</link>
 		<link>
+			<name>libraries/Adafruit_BMP280_Library</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/Adafruit_BMP280_Library/1.0.2</locationURI>
+		</link>
+		<link>
 			<name>libraries/ESP32</name>
 			<type>2</type>
 			<location>C:/Data/Work/arduino-esp32/libraries/ESP32</location>
 		</link>
 		<link>
-			<name>libraries/ESP32httpUpdate</name>
+			<name>libraries/SPI</name>
 			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/ESP32httpUpdate/2.1.145</locationURI>
-		</link>
-		<link>
-			<name>libraries/FS</name>
-			<type>2</type>
-			<location>C:/Data/Work/arduino-esp32/libraries/FS</location>
-		</link>
-		<link>
-			<name>libraries/HTTPClient</name>
-			<type>2</type>
-			<location>C:/Data/Work/arduino-esp32/libraries/HTTPClient</location>
-		</link>
-		<link>
-			<name>libraries/SPIFFS</name>
-			<type>2</type>
-			<location>C:/Data/Work/arduino-esp32/libraries/SPIFFS</location>
-		</link>
-		<link>
-			<name>libraries/Update</name>
-			<type>2</type>
-			<location>C:/Data/Work/arduino-esp32/libraries/Update</location>
+			<location>C:/Data/Work/arduino-esp32/libraries/SPI</location>
 		</link>
 		<link>
 			<name>libraries/WiFi</name>
@@ -77,9 +62,9 @@
 			<location>C:/Data/Work/arduino-esp32/libraries/WiFi</location>
 		</link>
 		<link>
-			<name>libraries/WiFiClientSecure</name>
+			<name>libraries/Wire</name>
 			<type>2</type>
-			<location>C:/Data/Work/arduino-esp32/libraries/WiFiClientSecure</location>
+			<location>C:/Data/Work/arduino-esp32/libraries/Wire</location>
 		</link>
 		<link>
 			<name>libraries/rc-switch</name>

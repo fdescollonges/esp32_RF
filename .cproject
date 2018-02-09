@@ -37,23 +37,16 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/rc-switch}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Adafruit_BMP280_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPI/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Wire/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.1063159806" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -77,23 +70,16 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/rc-switch}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Adafruit_BMP280_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPI/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Wire/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.517675397" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
@@ -117,23 +103,16 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFi/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_2/libraries/WiFiClientSecure/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32httpUpdate/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/FS/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/HTTPClient/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/rc-switch}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPIFFS/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Update/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFi/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/WiFiClientSecure/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/ESP32/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Adafruit_BMP280_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/SPI/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/esp32_RF/libraries/Wire/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.S.sketch.input.2075775633" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
 							</tool>
